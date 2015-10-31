@@ -1,0 +1,20 @@
+255 255 255
+0 0 0
+255 255 255
+0 0 0
+255 255 255
+0 0 0
+
+Format is:
+HourOnLedColor		R	G	B
+HourOffLedColor		R	G	B
+MinuteOnLedColor	R	G	B
+MinuteOffLedColor	R	G	B
+SecondOnLedColor	R	G	B
+SecondOffLedColor	R	G	B
+
+You can change the RGB values (keeping them between 0 and 255)
+Writing characters in or before the settings block will break the settings.
+
+"On" represents binary value 1.
+"Off" represents binary value 0.
